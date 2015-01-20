@@ -1,8 +1,0 @@
----
-layout: post
-title: "my love"
-date: 2015-01-20 11:04:38 +0800
-comments: true
-categories: 
----
-你是我的love
