@@ -1,0 +1,8 @@
+---
+layout: post
+title: "ok"
+date: 2015-01-20 14:53:05 +0800
+comments: true
+categories: 
+---
+I am OK!
