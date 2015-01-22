@@ -5,3 +5,248 @@ date: 2015-01-21 14:59:51 +0800
 comments: true
 categories: 
 ---
+
+<!DOCTYPE html><html><head><title>欢迎使用马克飞象</title><meta charset='utf-8'></head><body>
+                        <div id="wmd-preview" class="preview-content"></div>
+                    <div class="wmd-preview-section preview-content" id="wmd-preview-section-1">
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-2">
+
+<h1 id="欢迎使用马克飞象">欢迎使用马克飞象</h1>
+
+<p></p>
+
+<p><strong>马克飞象</strong>是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：</p>
+
+<ul><li><strong>功能丰富</strong> ：支持高亮代码块、<em>LaTex</em> 公式、流程图，本地图片上传甚至截图粘贴，工作学习好帮手；</li>
+<li><strong>得心应手</strong> ：简洁高效的编辑器，提供桌面<a target="_blank" href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop">离线客户端</a>，支持移动端 Web；</li>
+<li><strong>深度整合</strong> ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。</li>
+</ul>
+
+<hr>
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><a href="#欢迎使用马克飞象">欢迎使用马克飞象</a><ul>
+<li><a href="#markdown简介">Markdown简介</a><ul>
+<li><a href="#代码块">代码块</a></li>
+<li><a href="#latex-公式">LaTex 公式</a></li>
+<li><a href="#表格">表格</a></li>
+<li><a href="#流程图">流程图</a></li>
+<li><a href="#复选框">复选框</a></li>
+</ul>
+</li>
+<li><a href="#印象笔记相关">印象笔记相关</a><ul>
+<li><a href="#笔记本和标签">笔记本和标签</a></li>
+<li><a href="#笔记标题">笔记标题</a></li>
+<li><a href="#快捷编辑">快捷编辑</a></li>
+<li><a href="#数据同步">数据同步</a></li>
+<li><a href="#离线存储">离线存储</a></li>
+</ul>
+</li>
+<li><a href="#编辑器相关">编辑器相关</a><ul>
+<li><a href="#设置">设置</a></li>
+<li><a href="#快捷键">快捷键</a></li>
+</ul>
+</li>
+<li><a href="#关于收费">关于收费</a></li>
+<li><a href="#反馈与建议">反馈与建议</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-3">
+
+<h2 id="markdown简介">Markdown简介</h2>
+
+<blockquote>
+  <p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a target="_blank" href="https://zh.wikipedia.org/wiki/Markdown">维基百科</a></p>
+</blockquote>
+
+<p>正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a target="_blank" href="http://www.example.com">链接</a>或一个脚注<a href="#fn:demo" id="fnref:demo" title="See footnote" class="footnote">1</a>。下面列举了几个高级功能，更多语法请按<code>Ctrl + /</code>查看帮助。 </p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-4">
+
+<h3 id="代码块">代码块</h3>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-5">
+
+<pre class="prettyprint hljs-dark"><code class="language-python hljs "><span class="hljs-decorator">@requires_authorization</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">somefunc</span><span class="hljs-params">(param1=<span class="hljs-string">''</span>, param2=<span class="hljs-number">0</span>)</span>:</span>
+    <span class="hljs-string">'''A docstring'''</span>
+    <span class="hljs-keyword">if</span> param1 &gt; param2: <span class="hljs-comment"># interesting</span>
+        <span class="hljs-keyword">print</span> <span class="hljs-string">'Greater'</span>
+    <span class="hljs-keyword">return</span> (param2 - param1 + <span class="hljs-number">1</span>) <span class="hljs-keyword">or</span> <span class="hljs-keyword">None</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClass</span>:</span>
+    <span class="hljs-keyword">pass</span>
+<span class="hljs-prompt">&gt;&gt;&gt; </span>message = <span class="hljs-string">'''interpreter
+<span class="hljs-prompt">... </span>prompt'''</span></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-6">
+
+<h3 id="latex-公式">LaTex 公式</h3>
+
+<p>可以创建行内公式，例如 <span xmlns="http://www.w3.org/1999/xhtml" rel="a5b96bf2d8bd9059bb958841ba3f2beb" class="mathjax-replacement"><span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC03MDUuMjc3NDg5MDAyNTQxIDEwMTk1LjU1NTU1NTU1NTU1NSA5MTEuNTU0OTc4MDA1MDgxOCIgc3R5bGU9IndpZHRoOiBhdXRvOyBoZWlnaHQ6IGF1dG87IHZlcnRpY2FsLWFsaWduOiAtMC42MDJleDsgbWFyZ2luOiAwcHg7IGZvbnQtc2l6ZTogMThweDs7em9vbToxO3RyYW5zZm9ybTpzY2FsZSgxKTstbW96LXRyYW5zZm9ybTpzY2FsZSgxKTstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgxKTt0cmFuc2Zvcm0tb3JpZ2luOjAgMDstd2Via2l0LXRyYW5zZm9ybS1vcmlnaW46MCAwOy1tb3otdHJhbnNmb3JtLW9yaWdpbjowIDAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTciIGhlaWdodD0iMTgiPjxzdHlsZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgdHlwZT0idGV4dC9jc3MiPgoKPC9zdHlsZT48ZGVmcyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCI+PC9kZWZzPjxnIHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgMCkiIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0iYmxhY2siIHN0cm9rZT0iYmxhY2siPjx1c2UgeG1sbnM6YTA9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGEwOmhyZWY9IiNTVElYV0VCTUFJTi0zOTMiLz48dXNlIHk9IjAiIHg9IjU5MiIgeG1sbnM6YTE9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGExOmhyZWY9IiNTVElYV0VCTUFJTi0yOCIvPjx1c2UgeT0iMCIgeD0iOTMwIiB4bWxuczphMj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgYTI6aHJlZj0iI1NUSVhXRUJNQUlOSS02RSIvPjx1c2UgeT0iMCIgeD0iMTQzNSIgeG1sbnM6YTM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGEzOmhyZWY9IiNTVElYV0VCTUFJTi0yOSIvPjx1c2UgeT0iMCIgeD0iMjA1MCIgeG1sbnM6YTQ9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE0OmhyZWY9IiNTVElYV0VCTUFJTi0zRCIvPjx1c2UgeT0iMCIgeD0iMzAxOCIgeG1sbnM6YTU9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE1OmhyZWY9IiNTVElYV0VCTUFJTi0yOCIvPjx1c2UgeT0iMCIgeD0iMzM1NiIgeG1sbnM6YTY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE2OmhyZWY9IiNTVElYV0VCTUFJTkktNkUiLz48dXNlIHk9IjAiIHg9IjQwODMiIHhtbG5zOmE3PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhNzpocmVmPSIjU1RJWFdFQk1BSU4tMjIxMiIvPjx1c2UgeT0iMCIgeD0iNDk5NiIgeG1sbnM6YTg9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE4OmhyZWY9IiNTVElYV0VCTUFJTi0zMSIvPjx1c2UgeT0iMCIgeD0iNTUwMSIgeG1sbnM6YTk9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE5OmhyZWY9IiNTVElYV0VCTUFJTi0yOSIvPjx1c2UgeT0iMCIgeD0iNTgzOSIgeG1sbnM6YTEwPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTA6aHJlZj0iI1NUSVhXRUJNQUlOLTIxIi8+PHVzZSB5PSIwIiB4PSI3MTc3IiB4bWxuczphMTE9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGExMTpocmVmPSIjU1RJWFdFQk1BSU4tMjIwMCIvPjx1c2UgeT0iMCIgeD0iNzc0MiIgeG1sbnM6YTEyPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTI6aHJlZj0iI1NUSVhXRUJNQUlOSS02RSIvPjx1c2UgeT0iMCIgeD0iODUyNCIgeG1sbnM6YTEzPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTM6aHJlZj0iI1NUSVhXRUJNQUlOLTIyMDgiLz48dXNlIHk9IjAiIHg9Ijk0OTIiIHhtbG5zOmExND0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgYTE0OmhyZWY9IiNTVElYV0VCRE9VQkxFU1RSVUNLLTIxMTUiLz48L2c+PC9zdmc+" width="197" height="18"></span></span>。或者块级公式：</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-7">
+
+<p></p><div class="MathJax_SVG_Display" role="textbox" aria-readonly="true" style="text-align: center;"><span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-2-Frame"><img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSItMjIgLTE4MDAuOTYyNDI4NzYxNTc3MyA4ODk4LjUzMzM2ODk0MzY1MiAyNTI3LjE5MDkxNzc2NDExODIiIHN0eWxlPSJ3aWR0aDogYXV0bzsgaGVpZ2h0OiBhdXRvOyB2ZXJ0aWNhbC1hbGlnbjogLTEuODA3ZXg7IG1hcmdpbjogMHB4OyBmb250LXNpemU6IDE4cHg7O3pvb206MTt0cmFuc2Zvcm06c2NhbGUoMSk7LW1vei10cmFuc2Zvcm06c2NhbGUoMSk7LXdlYmtpdC10cmFuc2Zvcm06c2NhbGUoMSk7dHJhbnNmb3JtLW9yaWdpbjowIDA7LXdlYmtpdC10cmFuc2Zvcm0tb3JpZ2luOjAgMDstbW96LXRyYW5zZm9ybS1vcmlnaW46MCAwIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcyIiBoZWlnaHQ9IjQ5Ij48c3R5bGUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHR5cGU9InRleHQvY3NzIj4KCjwvc3R5bGU+PGRlZnMgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPjwvZGVmcz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDApIiBzdHJva2Utd2lkdGg9IjAiIGZpbGw9ImJsYWNrIiBzdHJva2U9ImJsYWNrIj48dXNlIHhtbG5zOmEwPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMDpocmVmPSIjU1RJWFdFQk1BSU5JLTc4Ii8+PHVzZSB5PSIwIiB4PSI3MjkiIHhtbG5zOmExPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTpocmVmPSIjU1RJWFdFQk1BSU4tM0QiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjk3LDApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjAsMCkiPjxyZWN0IHk9IjIyMCIgeD0iMCIgaGVpZ2h0PSI2MCIgd2lkdGg9IjY5MzgiIHN0cm9rZT0ibm9uZSIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYwLDY5OCkiPjx1c2UgeG1sbnM6YTI9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGEyOmhyZWY9IiNTVElYV0VCTUFJTi0yMjEyIi8+PHVzZSB5PSIwIiB4PSI2OTAiIHhtbG5zOmEzPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMzpocmVmPSIjU1RJWFdFQk1BSU5JLTYyIi8+PHVzZSB5PSIwIiB4PSIxNDE3IiB4bWxuczphND0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgYTQ6aHJlZj0iI1NUSVhXRUJNQUlOLUIxIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMyOSwwKSI+PHVzZSB5PSI0MCIgeD0iMCIgeG1sbnM6YTU9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE1OmhyZWY9IiNTVElYV0VCTUFJTi0yMjFBIi8+PHJlY3QgeT0iOTYzIiB4PSI5MzMiIGhlaWdodD0iNjAiIHdpZHRoPSIzNTU2IiBzdHJva2U9Im5vbmUiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5MzMsMCkiPjx1c2UgeG1sbnM6YTY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE2OmhyZWY9IiNTVElYV0VCTUFJTkktNjIiLz48dXNlIHk9IjQwOCIgeD0iNzE0IiB4bWxuczphNz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgYTc6aHJlZj0iI1NUSVhXRUJNQUlOLTMyIiB0cmFuc2Zvcm09InNjYWxlKDAuNzA3MTA2NzgxMTg2NTQ3NikiLz48dXNlIHk9IjAiIHg9IjExODQiIHhtbG5zOmE4PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhODpocmVmPSIjU1RJWFdFQk1BSU4tMjIxMiIvPjx1c2UgeT0iMCIgeD0iMjA5NiIgeG1sbnM6YTk9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGE5OmhyZWY9IiNTVElYV0VCTUFJTi0zNCIvPjx1c2UgeT0iMCIgeD0iMjYwMSIgeG1sbnM6YTEwPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTA6aHJlZj0iI1NUSVhXRUJNQUlOSS02MSIvPjx1c2UgeT0iMCIgeD0iMzEwNyIgeG1sbnM6YTExPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTE6aHJlZj0iI1NUSVhXRUJNQUlOSS02MyIvPjwvZz48L2c+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI5NjMsLTY4NikiPjx1c2UgeG1sbnM6YTEyPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhMTI6aHJlZj0iI1NUSVhXRUJNQUlOLTMyIi8+PHVzZSB5PSIwIiB4PSI1MDUiIHhtbG5zOmExMz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgYTEzOmhyZWY9IiNTVElYV0VCTUFJTkktNjEiLz48L2c+PC9nPjwvZz48L2c+PC9zdmc+" width="172" height="49"></span></div><p></p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-8">
+
+<h3 id="表格">表格</h3>
+
+<table>
+<thead>
+<tr>
+  <th align="left">Item</th>
+  <th align="right">Value</th>
+  <th align="center">Qty</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td align="left">Computer</td>
+  <td align="right">1600 USD</td>
+  <td align="center">5</td>
+</tr>
+<tr>
+  <td align="left">Phone</td>
+  <td align="right">12 USD</td>
+  <td align="center">12</td>
+</tr>
+<tr>
+  <td align="left">Pipe</td>
+  <td align="right">1 USD</td>
+  <td align="center">234</td>
+</tr>
+</tbody></table>
+
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-9">
+
+<h3 id="流程图">流程图</h3>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-10">
+
+<div class="flow-chart"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM1MiIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMTg1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJvdmVyZmxvdzogaGlkZGVuOyBwb3NpdGlvbjogcmVsYXRpdmU7IHRvcDogLTAuODY2Njk5cHg7O3pvb206MTt0cmFuc2Zvcm06c2NhbGUoMSk7LW1vei10cmFuc2Zvcm06c2NhbGUoMSk7LXdlYmtpdC10cmFuc2Zvcm06c2NhbGUoMSk7dHJhbnNmb3JtLW9yaWdpbjowIDA7LXdlYmtpdC10cmFuc2Zvcm0tb3JpZ2luOjAgMDstbW96LXRyYW5zZm9ybS1vcmlnaW46MCAwIiB2aWV3Qm94PSIwIDAgMTg1IDM1MiI+PHN0eWxlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB0eXBlPSJ0ZXh0L2NzcyI+CnRleHQgeyBmb250LXNpemU6IDE1cHggIWltcG9ydGFudDsgZm9udC1mYW1pbHk6ICJIZWx2ZXRpY2EgTmV1ZSIsIEFyaWFsLCAiSGlyYWdpbm8gU2FucyBHQiIsICJTVEhlaXRpIiwgIk1pY3Jvc29mdCBZYUhlaSIsICJXZW5RdWFuWWkgTWljcm8gSGVpIiwgU2ltU3VuLCBTb25nLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7IH0gW2ZpbGw9IiNmZmZmZmYiXSB7IGZpbGw6IG5vbmU7IH0gW3N0cm9rZT0iIzAwMDAwMCJdIHsgc3Ryb2tlOiAjMDAwOyB9IHRleHRbc3Ryb2tlPSIjMDAwMDAwIl0geyBzdHJva2U6IG5vbmU7IH0gW2ZpbGw9IiMwMDAiXSwgW2ZpbGw9IiMwMDAwMDAiXSwgW2ZpbGw9ImJsYWNrIl0geyBmaWxsOiAjMDAwOyB9Cjwvc3R5bGU+PGRlZnM+PG1hcmtlciBpZD0icmFwaGFlbC1tYXJrZXItZW5kYmxvY2szMyIgbWFya2VySGVpZ2h0PSIzIiBtYXJrZXJXaWR0aD0iMyIgb3JpZW50PSJhdXRvIiByZWZYPSIxLjUiIHJlZlk9IjEuNSI+PHVzZSBhMDpocmVmPSIjcmFwaGFlbC1tYXJrZXItYmxvY2siIHhtbG5zOmEwPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMS41IDEuNSkgc2NhbGUoMC42LDAuNikiIHN0cm9rZS13aWR0aD0iMS42NjY3IiBmaWxsPSJibGFjayIgc3Ryb2tlPSJub25lIi8+PC9tYXJrZXI+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNNSwwIDAsMi41IDUsNXoiIGlkPSJyYXBoYWVsLW1hcmtlci1ibG9jayIvPjwvZGVmcz48ZGVzYz5DcmVhdGVkIHdpdGggUmFwaGHDq2wgMi4xLjA8L2Rlc2M+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjU0IiBoZWlnaHQ9IjM4IiByPSIyMCIgcng9IjIwIiByeT0iMjAiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzAwMDAwMCIgc3R5bGU9IiIgc3Ryb2tlLXdpZHRoPSIyIiB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwxLDUzLDIpIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBzdGFydDsgZm9udDogMTRweCBzYW5zLXNlcmlmOyIgeD0iMTAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQ9IjEwcHggJnF1b3Q7QXJpYWwmcXVvdDsiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIgZm9udC1zaXplPSIxNHB4IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Im5vcm1hbCIgdHJhbnNmb3JtPSJtYXRyaXgoMSwwLDAsMSw1MywyKSI+PHRzcGFuIGR5PSI1Ij5TdGFydDwvdHNwYW4+PC90ZXh0PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDkiIGhlaWdodD0iMzgiIHI9IjAiIHJ4PSIwIiByeT0iMCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHlsZT0iIiBzdHJva2Utd2lkdGg9IjIiIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLDEsMjUuNSw5MikiLz48dGV4dCBzdHlsZT0idGV4dC1hbmNob3I6IHN0YXJ0OyBmb250OiAxNHB4IHNhbnMtc2VyaWY7IiB4PSIxMCIgeT0iMTkiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udD0iMTBweCAmcXVvdDtBcmlhbCZxdW90OyIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSIjMDAwMDAwIiBmb250LXNpemU9IjE0cHgiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0ibm9ybWFsIiB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwxLDI1LjUsOTIpIj48dHNwYW4gZHk9IjUiPk15IE9wZXJhdGlvbjwvdHNwYW4+PC90ZXh0PjxwYXRoIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZjsgZm9udC13ZWlnaHQ6IG5vcm1hbDsiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTM5LDE5LjVMMCwzOUw3OCw3OEwxNTYsMzlMNzgsMEwwLDM5IiBzdHJva2Utd2lkdGg9IjIiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0ibm9ybWFsIiB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwxLDIsMTgyKSIvPjx0ZXh0IHN0eWxlPSJ0ZXh0LWFuY2hvcjogc3RhcnQ7IGZvbnQ6IDE0cHggc2Fucy1zZXJpZjsiIHg9IjQ0IiB5PSIzOSIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTRweCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJub3JtYWwiIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLDEsMiwxODIpIj48dHNwYW4gZHk9IjUiPlllcyBvciBObz88L3RzcGFuPjx0c3BhbiBkeT0iMTgiIHg9IjQ0Ij48L3RzcGFuPjwvdGV4dD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNDkiIGhlaWdodD0iMzgiIHI9IjIwIiByeD0iMjAiIHJ5PSIyMCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHlsZT0iIiBzdHJva2Utd2lkdGg9IjIiIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLDEsNTUuNSwzMTIpIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBzdGFydDsgZm9udDogMTRweCBzYW5zLXNlcmlmOyIgeD0iMTAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQ9IjEwcHggJnF1b3Q7QXJpYWwmcXVvdDsiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIgZm9udC1zaXplPSIxNHB4IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Im5vcm1hbCIgdHJhbnNmb3JtPSJtYXRyaXgoMSwwLDAsMSw1NS41LDMxMikiPjx0c3BhbiBkeT0iNSI+RW5kPC90c3Bhbj48L3RleHQ+PHBhdGggc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmOyBmb250LXdlaWdodDogbm9ybWFsOyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNODAsNDBDODAsNDAsODAsNzcuOTI0Nzc4OTM4MjkzNDYsODAsODguOTk4NTE4MTAwOTM5NjkiIHN0cm9rZS13aWR0aD0iMiIgbWFya2VyLWVuZD0idXJsKCNyYXBoYWVsLW1hcmtlci1lbmRibG9jazMzKSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJub3JtYWwiLz48cGF0aCBzdHlsZT0iZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7IGZvbnQtd2VpZ2h0OiBub3JtYWw7IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik04MCwxMzBDODAsMTMwLDgwLDE2Ny45MjQ3Nzg5MzgyOTM0Niw4MCwxNzguOTk4NTE4MTAwOTM5NyIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI3JhcGhhZWwtbWFya2VyLWVuZGJsb2NrMzMpIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9Im5vcm1hbCIvPjxwYXRoIHN0eWxlPSJmb250LWZhbWlseTogc2Fucy1zZXJpZjsgZm9udC13ZWlnaHQ6IG5vcm1hbDsiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTgwLDI2MEM4MCwyNjAsODAsMjk3LjkyNDc3ODkzODI5MzQ2LDgwLDMwOC45OTg1MTgxMDA5Mzk3IiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjcmFwaGFlbC1tYXJrZXItZW5kYmxvY2szMykiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0ibm9ybWFsIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBzdGFydDsgZm9udDogMTRweCBzYW5zLXNlcmlmOyIgeD0iODUiIHk9IjI3MCIgdGV4dC1hbmNob3I9InN0YXJ0IiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTRweCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJub3JtYWwiPjx0c3BhbiBkeT0iNSI+eWVzPC90c3Bhbj48L3RleHQ+PHBhdGggc3R5bGU9ImZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmOyBmb250LXdlaWdodDogbm9ybWFsOyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMTU4LDIyMUMxNTgsMjIxLDE4MywyMjEsMTgzLDIyMUMxODMsMjIxLDE4Myw2NywxODMsNjdDMTgzLDY3LDgwLDY3LDgwLDY3QzgwLDY3LDgwLDgyLjM3MzQ0NDU1NzE4OTk0LDgwLDg5LjAwOTI0Nzc3NDI1ODI2IiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjcmFwaGFlbC1tYXJrZXItZW5kYmxvY2szMykiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0ibm9ybWFsIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBzdGFydDsgZm9udDogMTRweCBzYW5zLXNlcmlmOyIgeD0iMTYzIiB5PSIyMTEiIHRleHQtYW5jaG9yPSJzdGFydCIgZm9udD0iMTBweCAmcXVvdDtBcmlhbCZxdW90OyIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSIjMDAwMDAwIiBmb250LXNpemU9IjE0cHgiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0ibm9ybWFsIj48dHNwYW4gZHk9IjUiPm5vPC90c3Bhbj48L3RleHQ+PC9zdmc+" width="185" height="352"></div>
+
+<p>以及时序图:</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-11">
+
+<div class="sequence-diagram"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjI2MCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMzkyLjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9Im92ZXJmbG93OiBoaWRkZW47IHBvc2l0aW9uOiByZWxhdGl2ZTsgbGVmdDogLTAuNXB4OyB0b3A6IC0wLjM2NjY5OXB4Ozt6b29tOjE7dHJhbnNmb3JtOnNjYWxlKDEpOy1tb3otdHJhbnNmb3JtOnNjYWxlKDEpOy13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKDEpO3RyYW5zZm9ybS1vcmlnaW46MCAwOy13ZWJraXQtdHJhbnNmb3JtLW9yaWdpbjowIDA7LW1vei10cmFuc2Zvcm0tb3JpZ2luOjAgMCIgdmlld0JveD0iMCAwIDM5Mi41IDI2MCI+PHN0eWxlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB0eXBlPSJ0ZXh0L2NzcyI+CnRleHQgeyBmb250LXNpemU6IDE1cHggIWltcG9ydGFudDsgZm9udC1mYW1pbHk6ICJIZWx2ZXRpY2EgTmV1ZSIsIEFyaWFsLCAiSGlyYWdpbm8gU2FucyBHQiIsICJTVEhlaXRpIiwgIk1pY3Jvc29mdCBZYUhlaSIsICJXZW5RdWFuWWkgTWljcm8gSGVpIiwgU2ltU3VuLCBTb25nLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7IH0gW2ZpbGw9IiNmZmZmZmYiXSB7IGZpbGw6IG5vbmU7IH0gW3N0cm9rZT0iIzAwMDAwMCJdIHsgc3Ryb2tlOiAjMDAwOyB9IHRleHRbc3Ryb2tlPSIjMDAwMDAwIl0geyBzdHJva2U6IG5vbmU7IH0gW2ZpbGw9IiMwMDAiXSwgW2ZpbGw9IiMwMDAwMDAiXSwgW2ZpbGw9ImJsYWNrIl0geyBmaWxsOiAjMDAwOyB9Cjwvc3R5bGU+PGRlZnM+PHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNNSwwIDAsMi41IDUsNXoiIGlkPSJyYXBoYWVsLW1hcmtlci1ibG9jayIvPjxtYXJrZXIgaWQ9InJhcGhhZWwtbWFya2VyLWVuZGJsb2NrNTUiIG1hcmtlckhlaWdodD0iNSIgbWFya2VyV2lkdGg9IjUiIG9yaWVudD0iYXV0byIgcmVmWD0iMi41IiByZWZZPSIyLjUiPjx1c2UgYTA6aHJlZj0iI3JhcGhhZWwtbWFya2VyLWJsb2NrIiB4bWxuczphMD0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDIuNSAyLjUpIHNjYWxlKDEsMSkiIHN0cm9rZS13aWR0aD0iMS4wMDAwIiBmaWxsPSIjMDAwIiBzdHJva2U9Im5vbmUiLz48L21hcmtlcj48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik01LDAgMCwyLjUgNSw1eiIgaWQ9InJhcGhhZWwtbWFya2VyLWJsb2NrIi8+PC9kZWZzPjxkZXNjPkNyZWF0ZWQgd2l0aCBSYXBoYcOrbCAyLjEuMDwvZGVzYz48cmVjdCB4PSIxMCIgeT0iMjAiIHdpZHRoPSI1NCIgaGVpZ2h0PSIzOCIgcj0iMCIgcng9IjAiIHJ5PSIwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0eWxlPSIiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjIwLjUiIHk9IjMwIiB3aWR0aD0iMzQiIGhlaWdodD0iMTgiIHI9IjAiIHJ4PSIwIiByeT0iMCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIiBzdHlsZT0iIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IGZvbnQ6IDE2cHggQW5kYWxlIE1vbm8sbW9ub3NwYWNlOyIgeD0iMzciIHk9IjM5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9Im5vbmUiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTZweCIgZm9udC1mYW1pbHk9IkFuZGFsZSBNb25vLCBtb25vc3BhY2UiPjx0c3BhbiBkeT0iNSI+QWxpY2U8L3RzcGFuPjwvdGV4dD48cmVjdCB4PSIxMCIgeT0iMjAyIiB3aWR0aD0iNTQiIGhlaWdodD0iMzgiIHI9IjAiIHJ4PSIwIiByeT0iMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHlsZT0iIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIyMC41IiB5PSIyMTIiIHdpZHRoPSIzNCIgaGVpZ2h0PSIxOCIgcj0iMCIgcng9IjAiIHJ5PSIwIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0eWxlPSIiLz48dGV4dCBzdHlsZT0idGV4dC1hbmNob3I6IG1pZGRsZTsgZm9udDogMTZweCBBbmRhbGUgTW9ubyxtb25vc3BhY2U7IiB4PSIzNyIgeT0iMjIxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9Im5vbmUiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTZweCIgZm9udC1mYW1pbHk9IkFuZGFsZSBNb25vLCBtb25vc3BhY2UiPjx0c3BhbiBkeT0iNSI+QWxpY2U8L3RzcGFuPjwvdGV4dD48cGF0aCBzdHlsZT0iIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik0zNyw1OEwzNywyMDIiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjE5Mi41IiB5PSIyMCIgd2lkdGg9IjQ5IiBoZWlnaHQ9IjM4IiByPSIwIiByeD0iMCIgcnk9IjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3R5bGU9IiIgc3Ryb2tlLXdpZHRoPSIyIi8+PHJlY3QgeD0iMjAzIiB5PSIzMCIgd2lkdGg9IjI5IiBoZWlnaHQ9IjE4IiByPSIwIiByeD0iMCIgcnk9IjAiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0ibm9uZSIgc3R5bGU9IiIvPjx0ZXh0IHN0eWxlPSJ0ZXh0LWFuY2hvcjogbWlkZGxlOyBmb250OiAxNnB4IEFuZGFsZSBNb25vLG1vbm9zcGFjZTsiIHg9IjIxNyIgeT0iMzkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQ9IjEwcHggJnF1b3Q7QXJpYWwmcXVvdDsiIHN0cm9rZT0ibm9uZSIgZmlsbD0iIzAwMDAwMCIgZm9udC1zaXplPSIxNnB4IiBmb250LWZhbWlseT0iQW5kYWxlIE1vbm8sIG1vbm9zcGFjZSI+PHRzcGFuIGR5PSI1Ij5Cb2I8L3RzcGFuPjwvdGV4dD48cmVjdCB4PSIxOTIuNSIgeT0iMjAyIiB3aWR0aD0iNDkiIGhlaWdodD0iMzgiIHI9IjAiIHJ4PSIwIiByeT0iMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHlsZT0iIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIyMDMiIHk9IjIxMiIgd2lkdGg9IjI5IiBoZWlnaHQ9IjE4IiByPSIwIiByeD0iMCIgcnk9IjAiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0ibm9uZSIgc3R5bGU9IiIvPjx0ZXh0IHN0eWxlPSJ0ZXh0LWFuY2hvcjogbWlkZGxlOyBmb250OiAxNnB4IEFuZGFsZSBNb25vLG1vbm9zcGFjZTsiIHg9IjIxNyIgeT0iMjIxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9Im5vbmUiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTZweCIgZm9udC1mYW1pbHk9IkFuZGFsZSBNb25vLCBtb25vc3BhY2UiPjx0c3BhbiBkeT0iNSI+Qm9iPC90c3Bhbj48L3RleHQ+PHBhdGggc3R5bGU9IiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMjE3LDU4TDIxNywyMDIiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjQ3LjUiIHk9Ijc0IiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE4IiByPSIwIiByeD0iMCIgcnk9IjAiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0ibm9uZSIgc3R5bGU9IiIvPjx0ZXh0IHN0eWxlPSJ0ZXh0LWFuY2hvcjogbWlkZGxlOyBmb250OiAxNnB4IEFuZGFsZSBNb25vLG1vbm9zcGFjZTsiIHg9IjEyNyIgeT0iODMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQ9IjEwcHggJnF1b3Q7QXJpYWwmcXVvdDsiIHN0cm9rZT0ibm9uZSIgZmlsbD0iIzAwMDAwMCIgZm9udC1zaXplPSIxNnB4IiBmb250LWZhbWlseT0iQW5kYWxlIE1vbm8sIG1vbm9zcGFjZSI+PHRzcGFuIGR5PSI1Ij5IZWxsbyBCb2IsIGhvdyBhcmUgeW91PzwvdHNwYW4+PC90ZXh0PjxwYXRoIHN0eWxlPSIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTM3LDk2QzM3LDk2LDE4Mi45MjY1ODk5NjU4MjAzLDk2LDIxMS45OTc5MDI4MTA1NzM1OCw5NiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXJrZXItZW5kPSJ1cmwoI3JhcGhhZWwtbWFya2VyLWVuZGJsb2NrNTUpIiBzdHJva2UtZGFzaGFycmF5PSIwIi8+PHJlY3QgeD0iMjM3IiB5PSIxMTYiIHdpZHRoPSI4MSIgaGVpZ2h0PSIyOCIgcj0iMCIgcng9IjAiIHJ5PSIwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0eWxlPSIiIHN0cm9rZS13aWR0aD0iMiIvPjxyZWN0IHg9IjI0Mi41IiB5PSIxMjEiIHdpZHRoPSI3MSIgaGVpZ2h0PSIxOCIgcj0iMCIgcng9IjAiIHJ5PSIwIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiIHN0eWxlPSIiLz48dGV4dCBzdHlsZT0idGV4dC1hbmNob3I6IG1pZGRsZTsgZm9udDogMTZweCBBbmRhbGUgTW9ubyxtb25vc3BhY2U7IiB4PSIyNzcuNSIgeT0iMTMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250PSIxMHB4ICZxdW90O0FyaWFsJnF1b3Q7IiBzdHJva2U9Im5vbmUiIGZpbGw9IiMwMDAwMDAiIGZvbnQtc2l6ZT0iMTZweCIgZm9udC1mYW1pbHk9IkFuZGFsZSBNb25vLCBtb25vc3BhY2UiPjx0c3BhbiBkeT0iNSI+Qm9iIHRoaW5rczwvdHNwYW4+PC90ZXh0PjxyZWN0IHg9IjY4IiB5PSIxNjAiIHdpZHRoPSIxMTkiIGhlaWdodD0iMTgiIHI9IjAiIHJ4PSIwIiByeT0iMCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIiBzdHlsZT0iIi8+PHRleHQgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IGZvbnQ6IDE2cHggQW5kYWxlIE1vbm8sbW9ub3NwYWNlOyIgeD0iMTI3IiB5PSIxNjkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQ9IjEwcHggJnF1b3Q7QXJpYWwmcXVvdDsiIHN0cm9rZT0ibm9uZSIgZmlsbD0iIzAwMDAwMCIgZm9udC1zaXplPSIxNnB4IiBmb250LWZhbWlseT0iQW5kYWxlIE1vbm8sIG1vbm9zcGFjZSI+PHRzcGFuIGR5PSI1Ij5JIGFtIGdvb2QgdGhhbmtzITwvdHNwYW4+PC90ZXh0PjxwYXRoIHN0eWxlPSIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTIxNywxODJDMjE3LDE4Miw3MS4wNzM0MTAwMzQxNzk2OSwxODIsNDIuMDAyMDk3MTg5NDI2NDIsMTgyIiBzdHJva2Utd2lkdGg9IjIiIG1hcmtlci1lbmQ9InVybCgjcmFwaGFlbC1tYXJrZXItZW5kYmxvY2s1NSkiIHN0cm9rZS1kYXNoYXJyYXk9IjYsMiIvPjwvc3ZnPg==" width="393" height="260"></div>
+
+<blockquote>
+  <p><strong>提示：</strong>想了解更多，请查看<strong>流程图</strong><a target="_blank" href="http://bramp.github.io/js-sequence-diagrams/">语法</a>以及<strong>时序图</strong><a target="_blank" href="http://adrai.github.io/flowchart.js/">语法</a>。</p>
+</blockquote>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-12">
+
+<h3 id="复选框">复选框</h3>
+
+<p>使用 <code>- [ ]</code> 和 <code>- [x]</code> 语法可以创建复选框，实现 todo-list 等功能。例如：</p>
+
+<ul><li class="checklist-item"><en-todo checked="true"></en-todo> 已完成事项</li>
+<li class="checklist-item"><en-todo></en-todo> 待办事项1</li>
+<li class="checklist-item"><en-todo></en-todo> 待办事项2</li>
+</ul>
+
+<blockquote>
+  <p><strong>注意：</strong>目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在<strong>马克飞象</strong>中修改 Markdown 原文才可生效。下个版本将会全面支持。</p>
+</blockquote>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-13">
+
+<h2 id="印象笔记相关">印象笔记相关</h2>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-14">
+
+<h3 id="笔记本和标签">笔记本和标签</h3>
+
+<p><strong>马克飞象</strong>增加了<code>@(笔记本)[标签A|标签B]</code>语法, 以选择笔记本和添加标签。 <strong>绑定账号后</strong>， 输入<code>(</code>自动会出现笔记本列表，请从中选择。</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-15">
+
+<h3 id="笔记标题">笔记标题</h3>
+
+<p><strong>马克飞象</strong>会自动使用文档内出现的第一个标题作为笔记标题。例如本文，就是第一行的 <code>欢迎使用马克飞象</code>。</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-16">
+
+<h3 id="快捷编辑">快捷编辑</h3>
+
+<p>保存在印象笔记中的笔记，右上角会有一个红色的编辑按钮，点击后会回到<strong>马克飞象</strong>中打开并编辑该笔记。</p>
+
+<blockquote>
+  <p><strong>注意：</strong>目前用户在印象笔记中单方面做的任何修改，马克飞象是无法自动感知和更新的。所以请务必回到马克飞象编辑。</p>
+</blockquote>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-17">
+
+<h3 id="数据同步">数据同步</h3>
+
+<p><strong>马克飞象</strong>通过<strong>将Markdown原文以隐藏内容保存在笔记中</strong>的精妙设计，实现了对Markdown的存储和再次编辑。既解决了其他产品只是单向导出HTML的单薄，又规避了服务端存储Markdown带来的隐私安全问题。这样，服务端仅作为对印象笔记 API调用和数据转换之用。</p>
+
+<blockquote>
+  <p><strong>隐私声明：用户所有的笔记数据，均保存在印象笔记中。马克飞象不存储用户的任何笔记数据。</strong></p>
+</blockquote>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-18">
+
+<h3 id="离线存储">离线存储</h3>
+
+<p><strong>马克飞象</strong>使用浏览器离线存储将内容实时保存在本地，不必担心网络断掉或浏览器崩溃。为了节省空间和避免冲突，已同步至印象笔记并且不再修改的笔记将删除部分本地缓存，不过依然可以随时通过<code>文档管理</code>打开。</p>
+
+<blockquote>
+  <p><strong>注意：</strong>虽然浏览器存储大部分时候都比较可靠，但印象笔记作为专业云存储，更值得信赖。以防万一，<strong>请务必经常及时同步到印象笔记</strong>。</p>
+</blockquote>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-19">
+
+<h2 id="编辑器相关">编辑器相关</h2>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-20">
+
+<h3 id="设置">设置</h3>
+
+<p>右侧系统菜单（快捷键<code>Ctrl + M</code>）的<code>设置</code>中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-21">
+
+<h3 id="快捷键">快捷键</h3>
+
+<p>帮助    <code>Ctrl + /</code> <br>
+同步文档    <code>Ctrl + S</code> <br>
+创建文档    <code>Ctrl + Alt + N</code> <br>
+最大化编辑器    <code>Ctrl + Enter</code> <br>
+预览文档 <code>Ctrl + Alt + Enter</code> <br>
+文档管理    <code>Ctrl + O</code> <br>
+系统菜单    <code>Ctrl + M</code> </p>
+
+<p>加粗    <code>Ctrl + B</code> <br>
+插入图片    <code>Ctrl + G</code> <br>
+插入链接    <code>Ctrl + L</code> <br>
+提升标题    <code>Ctrl + H</code></p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-22">
+
+<h2 id="关于收费">关于收费</h2>
+
+<p><strong>马克飞象</strong>为新用户提供 10 天的试用期，试用期过后需要<a target="_blank" href="http://maxiang.info/vip.html">续费</a>才能继续使用。未购买或者未及时续费，将不能同步新的笔记。之前保存过的笔记依然可以编辑。</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-23">
+
+<h2 id="反馈与建议">反馈与建议</h2>
+
+<ul><li>微博：<a target="_blank" href="http://weibo.com/u/2788354117">@马克飞象</a>，<a target="_blank" href="http://weibo.com/ggock" title="开发者个人账号">@GGock</a></li>
+<li>邮箱：<a target="_blank" href="mailto:hustgock@gmail.com">hustgock@gmail.com</a></li>
+</ul>
+
+<hr>
+
+<p>感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。</p>
+
+</div><div class="preview-content" id="wmd-preview-section-footnotes"><div class="footnotes"><hr><ol><li id="fn:demo">这是一个示例脚注。请查阅 <a target="_blank" href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown 文档</a> 关于脚注的说明。 <strong>限制：</strong> 印象笔记的笔记内容使用 <a target="_blank" href="https://dev.yinxiang.com/doc/articles/enml.php">ENML</a> 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致<code>脚注</code>和<code>TOC</code>无法正常点击。 <a href="#fnref:demo" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body></html>
